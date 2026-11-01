@@ -1,0 +1,20 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "servers": {
+      "lsp-rust": {
+        "type": "local",
+        "command": [
+          "/Users/bentheunissen/go/bin/mcp-language-server",
+          "--workspace",
+          "/Users/bentheunissen/Dev/RustCraft",
+          "--lsp",
+          "rust-analyzer"
+        ],
+        "environment": {
+          "PATH": "/Users/bentheunissen/.cargo/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin"
+        }
+      }
+    }
+  }
+}
